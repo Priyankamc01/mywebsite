@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="image.png" alt="Grocery Logo" />
+            <h2>FreshCart</h2>
+        </div>
+        <input type="text" placeholder="Search for groceries..." class="search-bar" />
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="#">Offers</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Delivering Freshness to Your Doorstep</h1>
+        <p>Shop fresh vegetables, fruits, dairy items & more at best prices.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-grid">
+            <div class="cat-card">Vegetables</div>
+            <div class="cat-card">Fruits</div>
+            <div class="cat-card">Dairy</div>
+            <div class="cat-card">Snacks</div>
+            <div class="cat-card">Beverages</div>
+            <div class="cat-card">Household</div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2>Trending Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" />
+                <h3>Fresh Tomato 1kg</h3>
+                <p>₹45</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" />
+                <h3>Milk 1L</h3>
+                <p>₹55</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" />
+                <h3>Good Day Biscuits</h3>
+                <p>₹30</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" />
+                <h3>Fortune Oil 1L</h3>
+                <p>₹120</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 FreshCart Grocery Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
